@@ -1,0 +1,10 @@
+- Go files end with a .go extensions
+- main.go is a standard name for where the go code resides
+- To turn a go application into a project, we need to initialize it.
+- We do that by typing go mod init <name of the project> in the terminal
+- In code, everything is organized in packages.
+- Go needs to know the starting point of the code; i.e, where does the execution start. The entry point is a main function that Go will look for before it executes your program
+- The keyword for function is func, and the entry point function is called main ( func main() )
+- To print out anything, we must import the 'fmt' package. (fmt stands for format).
+- The fmt package handles input and output operations.
+- To use the package to print a statement, we start with the name of the package, then the command. ie fmt.Println("")
