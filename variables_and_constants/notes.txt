@@ -1,0 +1,4 @@
+var keyword is used to assign mutable  variables
+Go doesn't allow the developer to have unused variables and imports in their code. It throws up errors.
+const keyword defines immutable variables
+To use string templates in print statements, we use fmt.PrintF, %v in place of the string, a comma after the last quotation mark, and the string variable after the comma.
