@@ -9,6 +9,8 @@
 - The fmt package handles input and output operations.
 - To use the package to print a statement, we start with the name of the package, then the command. ie fmt.Println("")
 
-- Go is a statically typed language -> You need to tell go the datatype when declaring a variable.
+- Go is a statically typed language -> You need to tell Go the datatype when declaring a variable.
 - Go also has type inference. It can infer the datatype when you assign a value to a variable
+
+
 
