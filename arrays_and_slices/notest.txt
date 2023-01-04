@@ -1,0 +1,9 @@
+ var variableName[size] dataType is how we declare arrays
+ - We add data to an array using index.
+
+A slice is an abstraction of an array. So it uses the array type under the hood, but it has a dynamic size.
+- Slices are more efficient than arrays
+
+- To define  a slice, we create an array without the size definition.
+- To add elements to a  slice, we use append(), which is a built-in Go method.
+- Checking the lenght, type and size of a slice is similar to checking that of an array

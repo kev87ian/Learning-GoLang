@@ -45,4 +45,14 @@ func main() {
 	fmt.Printf("We have %v remaining tickets for the %v.\n", remainingTickets, conferenceName)
 
 	//arrays and slices
+	// var variableName[size] dataType is how we declare arrays
+	var bookings [50]string
+	bookings[0] = firstName + " " + lastName
+	fmt.Printf("The whole array: %v \n", bookings)
+	fmt.Printf("The first item in array: %v \n", bookings[0])
+
+	fmt.Printf("The array type: %T \n", bookings)
+	fmt.Printf("The length of the array: %v \n", len(bookings))
+	//slices
+
 }
